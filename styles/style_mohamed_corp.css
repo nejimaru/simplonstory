@@ -1,0 +1,74 @@
+body {
+	background-image: url("../images/planche.jpg");
+	background-attachment: fixed;
+	margin: 0 
+}
+
+.container {
+	margin: 20px; /* en dure pour ne pas changer la margin quelques soit le device */
+	box-sizing: border-box; /* pour fixer le problème des margins et paddings */
+	display: flex;
+	background-image: url("../images/fond_double.jpg");
+	background-repeat: round; /* permet de garder la même images de tel sorte quelle soit genre un élastique ... */
+}
+.page {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap; /* permet d'envoyer les images, qui prennent plus que la taille de la page, en bas */
+	padding: 20px;
+	box-sizing: border-box; 
+}
+.page_left {
+	box-shadow: -10px -10px 15px black;
+
+}
+.page_right {
+	box-shadow: 10px -10px 15px black;
+
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; /* pour centrer les photos dans la page */
+}
+.col {
+	flex-direction: column;
+	display: flex;
+}
+.image {
+	margin: 5px; /* en dure pour garder la même margin entre les photos */
+	position: relative; /* pour permettre aux bulles de se placer dans la photo */
+}
+
+.bull {
+	position: absolute; /* pour placer les bulles dans les photos */
+	background-color: rgba(255,255,255,1);
+	color: black;
+	padding: 5px;
+	z-index: 6; /* permet de mettre les bulles au dessus des photos */
+	font-size: 12px;
+	text-align: center;
+	width: auto;
+}
+@media (max-width:1000px) {
+	.container {
+		background-image: url("../images/papier_fond.jpg");
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+	}
+	.page {
+		margin: auto;
+		width: 100%;
+	}
+	.page_left, .page_right {
+		box-shadow:none;
+	}
+	.page_left { /* pour séparer les 2 pages dans le responsive ... à supprimer quand on aura le footer, il le remplace */
+		border-bottom: 10px ridge #763d3d;
+		box-shadow: 5px 5px 15px black;
+		border-bottom-right-radius: 30px;
+		border-bottom-left-radius: 30px; 
+	}
+}
