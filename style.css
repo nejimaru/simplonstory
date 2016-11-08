@@ -1,0 +1,73 @@
+header {
+
+	width: 100%;
+	height: 97px;
+	/*background-color: red;*/
+	border: 2px solid black;
+	display: block;
+	position: relative;
+	font-family: "Blacksword" ;
+	background-image: url(image/interieur.jpg);
+	background-size: 18em;
+
+	/*background-size: 100vw;*/
+}
+span {
+	margin-left: 34%;
+	/*margin-right: 35%*/;
+	position: absolute;
+	font-size: 4em;
+	text-shadow: 1px 1px 15px red;
+	color: white;
+	top:0;
+	text-align: center;
+	display: inline;
+}
+
+.logo {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 97px;
+	
+}
+
+
+div {
+
+	width: 100%;
+	height: 60px;
+	border: 2px solid black;
+	background-color: green;
+	bottom: 0;
+	position: absolute;
+	display: block;
+	text-align: center;
+	background-image: url(image/interieur.jpg);*/
+	background-size: ;*
+	
+	
+}
+
+header .titre { 
+	margin-left: 32vw;
+	height: 16vw;
+}
+
+body {
+	background-image:url(image/papier1.jpg);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	margin:O;
+
+}
+
+@font-face {
+  font-family: "MGS";
+  src: url("font/METAG___.ttf");
+}
+@font-face {
+  font-family: "Blacksword";
+  src: url("font/Blacksword.otf");
+}
