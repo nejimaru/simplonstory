@@ -1,0 +1,8 @@
+les fonts :
+
+ la font "Blacksword" nous sert dans le titre du header "simplon-story" et 
+dans le "copyright du footer"
+
+ la font "komika" nous servira pour la narration pour le roman photo.
+
+ la font "mangati" nous servira pour les dialogue a l'intérieur des bule. 
