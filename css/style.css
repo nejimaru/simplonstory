@@ -74,12 +74,12 @@ header{
 
 #menusource{
   width: 70%;
-  z-index: 2;
+  z-index: 7;
   margin: 0 auto;
   padding: 0 17%;
 }
 
-#menusource nav{
+nav{
   position: relative;
   padding: 6% 0;
   background-color: red;
@@ -105,24 +105,19 @@ header{
   border-top-right-radius: 0;
 }
 
-#openedmenu li{
+li{
   border-style: outset;
+  padding: 4%;
   border-width: 1px;
   border-color: grey;
   background-color: yellow;
 }
 
-a{
-  display: block;
-  padding: 4%;
-  color: black;
-}
-
-#menusource>nav:hover #openedmenu{
+nav:hover #openedmenu{
   display: block;
 }
 
-#menusource nav:hover{
+nav:hover{
   width: 98%;
   border-style: inset;
   border-width: 1px;
