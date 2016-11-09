@@ -5,4 +5,13 @@ dans le "copyright du footer"
 
  la font "komika" nous servira pour la narration pour le roman photo.
 
- la font "mangati" nous servira pour les dialogue a l'intérieur des bule. 
+ la font "mangati" nous servira pour les dialogue a l'intérieur des bule.
+
+ les images:
+
+l'image "interieur.jpg" est utiliser pour la background du header et du 
+footer, 
+
+l'image papier "papier1.jpg" est utiliser pour la background du body.
+
+et l'image "Metali.png" est le logo en haut a gauche du footer.  
