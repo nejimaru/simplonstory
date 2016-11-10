@@ -3,11 +3,11 @@
 
   <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Pour fixer un bug de scroll -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Pour fixer un bug de scroll -->
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Simplon-Story, page Proto</title>
 
@@ -15,9 +15,9 @@
 
   <body>
 
-    <div class="container flexybox columndir">
+    <div class="container">
 
-      <header class="flexybox flexbase">
+      <header class="flexybox posfix">
 
         <div id="logo" class="flexbase"> <!-- logo de la page --></div>
 
@@ -29,15 +29,15 @@
 
             <div id="menusource">
 
-              <nav class="posrel"><p>Rechercher une page</p>
+              <nav class="posrel"><p class="centertext">Rechercher une page</p>
 
                 <ul id="openedmenu" class="posabs no_display">
 
-                  <li><a href="">Page 1</a></li>
-                  <li><a href="">Page 2</a></li>
-                  <li><a href="">Page 3</a></li>
-                  <li><a href="">Page 4</a></li>
-                  <li id="lastlielem"><a href="">Page 5</a></li>
+                  <li class="centertext blackfont"><a href="">Page 1</a></li>
+                  <li class="centertext blackfont"><a href="">Page 2</a></li>
+                  <li class="centertext blackfont"><a href="">Page 3</a></li>
+                  <li class="centertext blackfont"><a href="">Page 4</a></li>
+                  <li id="lastlielem" class="centertext blackfont"><a href="">Page 5</a></li>
 
                 </ul>
 
@@ -51,7 +51,7 @@
 
       </header>
 
-      <section id="middle_area">
+      <section id="middle_area" class="posabs">
 
         <div id="section_container" class="flexybox"> <!-- contient les 2 pages -->
 
@@ -83,7 +83,7 @@
 
       </section>
 
-      <footer class="flexbase posfix">
+      <footer class="flexbase posfix yellow">
 
         <div id="paginations" class="flexybox justibetween blackswordfont">
 
