@@ -128,7 +128,7 @@ nav:hover #openedmenu{
 }
 
 nav:hover{
-  width: 98%;
+  transform: scale(0.95);
   border-style: inset;
   border-width: 1px;
   border-color: grey;
