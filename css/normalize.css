@@ -51,7 +51,12 @@
 .aligncenter{
   align-items: center;
 }
-
+.floatright {
+  float: right;
+}
+.floatleft {
+  float: left;
+}
 .centertext{
   text-align: center;
 }
