@@ -1,0 +1,106 @@
+/* Mise en page gloable de la page */
+
+body {
+	background-image: url("../img/bois.jpg");
+	background-attachment: fixed;
+  background-size: cover;
+}
+
+
+/* Section contenant l'intrigue */
+
+#section_container {
+  min-height: 620px; 
+	box-sizing: border-box; /* pour fixer le problème des margins et paddings */
+  margin-top: 10px;
+  position: relative;
+}
+
+.couvert {
+  justify-content: space-around;
+  min-height: 620px;
+  width: 460px; /* en dure pour garder la même taille de l'image du fond pour qu'elle soit pas déformer */
+  margin: auto;/* en dur pour ne pas changer la margin quelques soit le device */
+  padding: 32px;
+  background-image: url("../img/couv_deb.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 25px 10px 7px black;
+  box-sizing: border-box;
+  border: 3px outset rgba(99,73,39,0.4);
+}
+.nous {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.nous li{
+  list-style-type: upper-roman;
+  font-family: Kristen ITC;
+  color: rgb(195,195,195);
+  text-shadow: 4px 4px 5px black;
+}
+i {
+  color: rgba(195,195,195,0.5);
+}
+#list_reali {
+  float: left;
+  width: 70%;
+}
+
+#list_reali span {
+  font-size: 16px;
+  text-decoration: underline;
+}
+.font1{
+  color: rgba(195,195,195,1);
+  font-size: 20px;
+  text-shadow: 10px 4px 1px black;
+  font-family: Kristen ITC;
+}
+.font2 {
+  font-size: 12px;
+}
+#title_couv {
+  color: rgba(195,195,195,1);
+  font-size: 25px;
+  font-weight: bolder;
+  border:4px inset rgb(195,195,195); 
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 4px 4px 4px black;
+  text-shadow: 10px 4px 1px black;
+}
+#info {
+  position: fixed;
+  left: -250px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  height: auto;
+  width: auto;
+  transition: left 2s;
+}
+.couvert:hover + #info{
+  left:0;
+}
+
+/* Media querie pour téléphone */
+
+@media (max-width: 460px) {
+
+
+/* media queries section centrale */
+
+  .couvert {
+    width: 100%;
+  }
+
+  #section_container {
+    margin: auto;
+    flex-direction: column;
+    width: 99%;
+  }
+
+}

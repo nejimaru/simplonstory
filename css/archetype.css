@@ -6,106 +6,6 @@ body {
   background-size: cover;
 }
 
-#middle_area{
-  width: 100%;
-  top: 10%;
-}
-
-.container{
-  width: 98vw;
-  height: 100vh;
-}
-
-/* Header */
-
-/* CSS de spécificité sur zone globale */
-
-header{
-  height: 10%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-image: url(../img/header.jpg);
-  background-repeat: repeat-x;
-  background-size: 10vw 10vh;
-}
-
-header img{
-  height: 100%;
-  margin-left: 10%;
-}
-
-nav{
-  padding: 6% 0;
-  background-image: url(../img/bois.jpg);
-  border-style: outset;
-  border-width: 1px;
-  border-color: grey;
-  border-radius: 20%/80%;
-  box-shadow: 17px 12px 25px -10px;
-  cursor: pointer;
-}
-
-#openedmenu li{
-  background-image: url(../img/feuille.jpg);
-  border-style: outset;
-  border-width: 1px;
-  border-color: grey;
-  padding: 4%;
-}
-
-/* CSS de spécificité sur zone identifié */
-
-#pagetitle{
-  flex: 3;
-}
-
-#menusource{
-  width: 70%;
-  z-index: 7;
-  margin: 0 auto;
-  padding: 0 17%;
-}
-
-#openedmenu{
-  width: 80%;
-  left: 10.5%;
-  top: 101%;
-}
-
-#lastlielem{
-  border-radius: 20%/80%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-/* Animation d'apparition du menu sur un hover du nav */
-
-nav:hover #openedmenu{
-  display: block;
-}
-
-nav:hover{
-  transform: scale(0.95);
-  background-image: url(../img/boisobscur.jpg);
-  background-repeat: round;
-  background-size: 100% 100%;
-  border-style: inset;
-  border-width: 1px;
-  border-color: grey;
-  border-radius: 20%/80%;
-  box-shadow: -9px -9px 30px -4px;
-}
-
-#openedmenu li:hover{
-  font-size: 1.1em;
-  opacity: 0.95;
-}
-
-#openedmenu li:hover a{
-  text-shadow: 1px 1px;
-}
 
 /* Section contenant l'intrigue */
 
@@ -113,6 +13,7 @@ nav:hover{
   min-height: 620px; 
 	box-sizing: border-box; /* pour fixer le problème des margins et paddings */
   margin-top: 10px;
+  position: relative;
 }
 
 .couvert {
@@ -146,19 +47,6 @@ i {
   width: 70%;
 }
 
-#page_left {
-	box-shadow: -10px -10px 15px;
-}
-
-#page_right {
-	box-shadow: 10px -10px 15px;
-}
-
-.page {
-	width: 50%;
-	padding: 20px;
-	box-sizing: border-box;
-}
 #list_reali span {
   font-size: 16px;
   text-decoration: underline;
@@ -183,73 +71,19 @@ i {
   text-shadow: 10px 4px 1px black;
 }
 #info {
-  position: absolute;
-  margin-left:-250px;
+  position: fixed;
+  left: -250px;
+  padding: 20px;
   box-sizing: border-box;
   background-color: white;
   border: 3px solid black;
+  border-radius: 10px;
   height: auto;
   width: auto;
-  transition: margin-left 2s;
+  transition: left 2s;
 }
 .couvert:hover + #info{
-  margin-left:0;
-}
-/* Footer */
-
-footer {
-  height: 10%;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-image: url(../img/footer.jpg);
-  background-repeat: repeat-x;
-  background-size: 10vw 10vh;
-}
-
-footer p {
-  bottom: 3.5%;
-  left: 45%;
-}
-
-header h1, footer p {
-  text-shadow: 1px 1px 15px red;
-}
-
-button a {
-  color: #3f3b3b;
-}
-
-#paginations {
-  width: 100%;
-  margin-top: 1.5%;
-  text-shadow: red;
-}
-
-#right_button, #right_arrow {
-  margin-right: 3%;
-}
-
-#left_button, #left_arrow {
-  margin-left: 3%;
-}
-
-#fleches {
-  width: 100%;
-  margin-top: 1%;
-}
-
-.pagineur{
-  color: #3f3b3b ;
-}
-
-.border_shadow{
-  border : 1px solid red;
-  box-shadow: 2px 2px 2px red;
-}
-
-.arrow:hover {
-  transform: scale(1.1);
+  left:0;
 }
 
 /* Media querie pour téléphone */
