@@ -1,4 +1,3 @@
-
 *{
   margin: 0;
   padding: 0;
@@ -69,6 +68,9 @@
 .centertext{
   text-align: center;
 }
+.justifytext {
+  text-align: justify;
+}
 
 .blackswordfont{
   font-family: blacksword;
@@ -85,7 +87,9 @@
 .boldfont{
   font-weight: bold;
 }
-
+.largfont {
+  font-size: 1.3em;
+}
 .whitefont{
   color: white;
 }
@@ -141,8 +145,8 @@
   width: 100%;
   height: 20px;
   background-color: white;
-  top: 0
-	font-size: 0.5em; /* trouver une taille en em; plz! */
+  top: 0;
+	font-size: 0.7em; /* trouver une taille en em; plz! */
   font-family: "mangati"
 }
 

@@ -4,6 +4,8 @@
 .conteneur1, .conteneur2, .conteneur3 {
   display: flex;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .colonne1, .colonne3, .colonne6, .colonne7, .colonne8 {
   width: 45%;
@@ -16,6 +18,7 @@
 
 .colonne8, .colonne9 {
   height: 305px;
+  width: 40%;
 }
 
 .colonne10 {
@@ -73,4 +76,7 @@
   padding: 3%;
 }
 
+.trans {
+  width: 50%;
+}
 /*FIN CSS CAMILLE*/

@@ -1,0 +1,59 @@
+.conteneur3 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.colonne8, .colonne9 {
+  height: 305px;
+  width: 40%;
+}
+
+.colonne10 {
+  width: 90%;
+}
+
+.colonne11 {
+  width: 40%;
+}
+#dia1 {
+  top: 15%;
+  left: 20%;
+}
+#dia2 {
+  top: 60%;
+  left: 10%;
+}
+#dia3 {
+  top: 25%;
+  left: 65%;
+}
+#dia4 {
+  top:35%;
+  left:
+}
+
+#dia5 {
+  top:25%;
+  left: 35%;
+}
+
+#dia6 {
+  top:40%;
+  left:70%;
+}
+
+#dia7 {
+  top:25%;
+  left:60%;
+}
+#dia9 {
+  top:15%;
+  left:60%;
+}
+
+#dia1_0 {
+  top:15%;
+  left:60%;
+}

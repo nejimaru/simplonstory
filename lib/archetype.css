@@ -13,7 +13,7 @@ body {
 }
 
 .container{
-  width: 98vw;
+  width: 100%;
   height: 100vh;
 }
 
@@ -130,6 +130,7 @@ li:hover a{
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 .Image {
@@ -184,21 +185,22 @@ button a {
 
 #paginations {
   width: 100%;
-  margin-top: 1.5%;
   text-shadow: red;
 }
 
 #right_button, #right_arrow {
   margin-right: 3%;
+  padding: 0.3%;
 }
 
 #left_button, #left_arrow {
   margin-left: 3%;
+  padding: 0.3%;
 }
 
 #fleches {
   width: 100%;
-  margin-top: 1%;
+  margin-top: 0.5%;
 }
 
 .pagineur{
