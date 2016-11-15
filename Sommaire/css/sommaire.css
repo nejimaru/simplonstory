@@ -102,3 +102,30 @@ h3{
 	-webkit-animation: je_tombe 30s;
 	animation: je_tombe 30s;
 }
+
+@media (max-width: 640px){
+
+	header{
+		height: 15%;
+		background-size: 15vw 15vh;
+	}
+
+	footer{
+		height: 15%;
+		background-size: 15vw 15vh;
+	}
+
+	#section_container {
+		min-height: 700px;
+		margin: 0 !important;
+	}
+
+	#page_left{
+		display: none;
+	}
+
+	#page_right{
+		margin: 5% 0 0 0!important;
+	}
+
+}
