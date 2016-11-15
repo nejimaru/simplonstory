@@ -72,7 +72,8 @@ i {
 }
 #info {
   position: fixed;
-  left: -250px;
+  bottom: -250px;
+  right:10px;
   padding: 20px;
   box-sizing: border-box;
   background-color: white;
@@ -80,10 +81,10 @@ i {
   border-radius: 10px;
   height: auto;
   width: auto;
-  transition: left 2s;
+  transition: bottom 2s;
 }
 .couvert:hover + #info{
-  left:0;
+  bottom:0;
 }
 
 /* Media querie pour téléphone */
@@ -101,6 +102,9 @@ i {
     margin: auto;
     flex-direction: column;
     width: 99%;
+  }
+  #info {
+    display: none;
   }
 
 }
