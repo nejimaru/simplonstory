@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -142,9 +143,6 @@
   background-color: white;
   top: 0
 	font-size: 0.5em; /* trouver une taille en em; plz! */
-	width: auto;
-  border-radius: 40%;
-  border:1px solid black;
   font-family: "mangati"
 }
 
@@ -152,4 +150,3 @@
    les classes .case_margin et .posrel obligatoirement
    ajouté l'une à l'autre pour une mise en page
    optimale */
-
