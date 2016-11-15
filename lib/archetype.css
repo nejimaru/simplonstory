@@ -229,8 +229,6 @@ button a {
   transform: scale(1.1);
 }
 
-
-
 /* Media querie pour téléphone */
 
 @media (max-width: 640px) {
@@ -275,3 +273,42 @@ button a {
   }
 
 }
+
+/* Media querie pour téléphone */
+
+@media (max-width: 460px) {
+
+/* media queries header */
+
+  #logo{
+    display: none;
+  }
+
+  #pagetitle{
+    flex: 1.8;
+  }
+
+/* media queries section centrale */
+
+  #page_left, #page_right {
+    box-shadow: none;
+  }
+
+  .page {
+    margin: auto;
+    width: 100%;
+  }
+
+/* media queries footer */
+
+  footer p {
+      left: 33%;
+      font-size: 1.2em;
+    }
+
+  #left_button, #right_button, #left_arrow, #right_arrow {
+    font-size: 1.2em;
+  }
+
+}
+
