@@ -1,0 +1,131 @@
+@-webkit-keyframes je_tombe{
+	0%{
+		transform: skew(0deg);
+	}
+
+	5%{
+		transform: skew(0deg);
+	}
+
+	30%{
+		transform: skew(30deg);
+	}
+
+	34%{
+		transform: skew(30deg) rotate(-130deg);
+	}
+
+	38%{
+		transform: skew(30deg) rotate(-40deg);
+	}
+
+	42%{
+		transform: skew(30deg) rotate(-80deg);
+	}
+
+	46%{
+		transform: skew(30deg) rotate(-65deg);
+	}
+
+	100%{
+		transform: skew(30deg) rotate(-65deg);
+	}
+}
+
+@keyframes je_tombe{
+	0%{
+		transform: skew(0deg);
+	}
+
+	5%{
+		transform: skew(0deg);
+	}
+
+	30%{
+		transform: skew(30deg);
+	}
+
+	34%{
+		transform: skew(30deg) rotate(-130deg);
+	}
+
+	38%{
+		transform: skew(30deg) rotate(-40deg);
+	}
+
+	42%{
+		transform: skew(30deg) rotate(-80deg);
+	}
+
+	46%{
+		transform: skew(30deg) rotate(-65deg);
+	}
+
+	100%{
+		transform: skew(30deg) rotate(-65deg);
+	}
+}
+
+#summary_container{
+	height: 100%;
+	width: 93%;
+	margin: 0 auto;
+}
+
+h2{
+	width: 60%;
+	margin: 3% auto;
+	border: solid 2px black;
+	transform-origin: 100% 0;
+}
+
+.part{
+	height: 19%;
+	margin: 1% 0;
+}
+
+h3{
+	margin: 1%;
+	text-decoration: underline;
+}
+
+#page_right p{
+	height: 20%;
+	margin: 1% 3%;
+}
+
+#who_are_we p{
+	height: 15%;
+}
+
+#page_right:hover h2{
+	-webkit-animation: je_tombe 30s;
+	animation: je_tombe 30s;
+}
+
+@media (max-width: 640px){
+
+	header{
+		height: 15%;
+		background-size: 15vw 15vh;
+	}
+
+	footer{
+		height: 15%;
+		background-size: 15vw 15vh;
+	}
+
+	#section_container {
+		min-height: 700px;
+		margin: 0 !important;
+	}
+
+	#page_left{
+		display: none;
+	}
+
+	#page_right{
+		margin: 5% 0 0 0!important;
+	}
+
+}

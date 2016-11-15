@@ -1,0 +1,76 @@
+
+/*CSS RAJOUTE PAR CAMILLE*/
+
+.conteneur1, .conteneur2, .conteneur3 {
+  display: flex;
+  width: 100%;
+}
+.colonne1, .colonne3, .colonne6, .colonne7, .colonne8 {
+  width: 45%;
+  margin-right: 10px;
+}
+
+.colonne2, .colonne4, .colonne9 {
+  width: 50%;
+}
+
+.colonne8, .colonne9 {
+  height: 305px;
+}
+
+.colonne10 {
+  width: 90%;
+}
+
+.colonne5 {
+  width: 70%;
+}
+
+.colonne11 {
+  width: 40%;
+}
+
+#bulle1 {
+  top: -30%;
+  right: 0;
+  height: 40px;
+  padding: 7%;
+}
+
+#bulle2 {
+  top: 0;
+  right: 0;
+  padding: 5%;
+}
+
+#bulle3 {
+  bottom: -10%;
+  left: 0;
+  padding: 5%;
+  height: 40px;
+}
+
+#bulle4, #bulle5, #bulle6, #bulle9, #bulle12 {
+  top: 0;
+  left: 10%;
+  padding: 3%;
+}
+
+#bulle7 {
+  top: 0;
+  right: 10%;
+  padding: 3%;
+}
+
+#bulle8 {
+  top: 50%;
+  right: 5%;
+}
+
+#bulle10, #bulle11{
+  top: -10%;
+  left: 10%;
+  padding: 3%;
+}
+
+/*FIN CSS CAMILLE*/

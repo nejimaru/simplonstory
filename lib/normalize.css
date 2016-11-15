@@ -1,0 +1,158 @@
+/* Ceci représente une ébauche du fichier final de normalisation des classes */
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.posfix{
+  position: fixed;
+}
+
+.posabs{
+  position: absolute;
+}
+
+.posrel{
+  position: relative;
+}
+
+.no_display{
+  display: none;
+}
+
+.flexybox{
+  display: flex;
+}
+
+.flexbase{
+  flex: 1;
+}
+
+.flextwo {
+ flex: 2;
+}
+.flexthree {
+ flex: 3;
+}
+
+.flexywrap {
+	flex-wrap: wrap;
+}
+
+.flextwo {
+  flex: 2;
+}
+
+.flexthree {
+  flex: 3;
+}
+
+.columndir{
+  flex-direction: column;
+}
+
+.justicenter{
+  justify-content: center;
+}
+
+.justibetween{
+  justify-content: space-between;
+}
+
+.aligncenter{
+  align-items: center;
+}
+
+.centertext{
+  text-align: center;
+}
+
+.blackswordfont{
+  font-family: blacksword;
+}
+
+.komtitk{
+  font-family: komtitk;
+}
+
+.mangati{
+  font-family: mangati;
+}
+
+.boldfont{
+  font-weight: bold;
+}
+
+.whitefont{
+  color: white;
+}
+
+.case_margin{
+  margin: 5px;
+}
+
+.fiftycent_radius{
+  border-radius: 50%;
+}
+
+.white_area{
+  background-color: white;
+}
+
+.round_repeat{
+  background-repeat: round;
+}
+
+.narration_haut {
+  top: 0;
+  border-bottom: 2px solid black;
+}
+
+.narration_bas {
+  bottom: 0;
+  top:auto;
+  border-top: 2px solid black;
+}
+
+.narration{
+  border-bottom: 3px solid black;
+  width: 100%;
+  height: 19px;
+  background-color: white;
+  top: 1%;
+
+}
+
+
+.bulle { /* ATTENTION!!! --- Ajouter les classes .posabs et .centertext pour rendre le tout totalement compatible */
+	background-color: rgba(255,255,255,1);
+	color: black;
+	padding: 5px;
+	z-index: 1; /* permet de mettre les bulles au dessus des photos */
+	font-size: 12px; /* trouver une taille en em; plz! */
+	width: auto;
+  border-radius: 40%;
+  border:1px solid black;
+}
+
+.narration {
+  border: 2px solid black;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  top: 0
+	font-size: 0.5em; /* trouver une taille en em; plz! */
+	width: auto;
+  border-radius: 40%;
+  border:1px solid black;
+  font-family: "mangati"
+}
+
+/* Conventionné par Mohamed: les cases se créeront avec
+   les classes .case_margin et .posrel obligatoirement
+   ajouté l'une à l'autre pour une mise en page
+   optimale */
