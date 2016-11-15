@@ -95,7 +95,7 @@ h3{
   margin: 2% auto;
 }
 
-#jonathan_section:hover h3{
+.jonathan_section:hover h3{
   -webkit-keyframes: bouge_le_titre 24s;
   animation: bouge_le_titre 24s;
 }
