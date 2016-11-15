@@ -36,6 +36,14 @@
 	flex-wrap: wrap;
 }
 
+.flextwo {
+  flex: 2;
+}
+
+.flexthree {
+  flex: 3;
+}
+
 .columndir{
   flex-direction: column;
 }
@@ -96,9 +104,19 @@
 	background-color: rgba(255,255,255,1);
 	color: black;
 	padding: 5px;
-	z-index: 6; /* permet de mettre les bulles au dessus des photos */
+	z-index: 1; /* permet de mettre les bulles au dessus des photos */
 	font-size: 12px; /* trouver une taille en em; plz! */
 	width: auto;
+  border-radius: 40%;
+ border:1px solid black;
+}
+
+.narration {
+  border: 2px solid black;
+  width: 100%;
+  height: 20px;
+  background-color: white;
+  top: 0
 }
 
 /* Conventionné par Mohamed: les cases se créeront avec
