@@ -6,6 +6,7 @@ body {
   background-size: cover;
 }
 
+
 #middle_area{
   width: 100%;
   top: 10%;
@@ -25,7 +26,7 @@ header{
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   background-image: url(../img/header.jpg);
   background-repeat: repeat-x;
   background-size: 10vw 10vh;
@@ -124,12 +125,124 @@ li:hover a{
 #page_right {
 	box-shadow: 10px -10px 15px;
 }
+#dia1 {
+  top: 15%;
+  left: 20%;
+}
+#dia2 {
+  top: 60%;
+  left: 10%;
+}
+#dia3 {
+  top: 12%;
+  left: 65%;
+}
+#dia4 {
+  top:25%;
 
+}
+
+#dia5 {
+  top:25%;
+  left: 35%;
+}
+
+#dia6 {
+  top:40%;
+  left:70%;
+}
+
+#dia7 {
+  top:25%;
+  left:60%;
+}
+#dia9 {
+  top:15%;
+  left:60%;
+}
+
+#dia1_0 {
+  top:15%;
+  left:60%;
+}
+
+#dia1_1 {
+  top:15%;
+  left:30%;
+}
+#dia1_2 {
+  top: ;
+  left:;
+}
+#dia1_3 {
+  top:10% ;
+  left: ;
+}
+#dia1_4 {
+  top: 15%;
+  left: 65%;
+}
+#dia1_5 {
+  top: 3% ;
+  left: 25%;
+}
+#dia1_6 {
+  top:10%;
+  left:15%;
+  border:2px solid red;
+}
+#dia1_7 {
+  top:10%;
+  left:20%;
+  border:2px solid red;
+}
+#dia1_8 {
+  top:15%;
+  left:20%;
+  border:2px solid red;
+}
+#dia1_9 {
+  top:3%;
+  left:15%;
+  border:2px solid red;
+}
+#dia1_10 {
+  top:59%;
+}
+#diafin {
+	top:20%;
+	left: 10%;
+}
 .page {
 	width: 50%;
 	padding: 20px;
 	box-sizing: border-box;
 }
+
+.Image {
+	width: 30%;
+	height: 200px;
+	border: 1px solid black;
+	position: relative;
+}
+.photo {
+	width: 100%;
+	height: 100%;
+	border: 1px solid black;
+}
+
+.image_portrait {
+ width: 48%;
+ height: 390px;
+ flex:1;
+}
+
+.image_paysage {
+ width: 100%;
+ height: 200px;
+ flex: 1;
+}
+
 
 /* Footer */
 
@@ -141,6 +254,7 @@ footer {
   background-image: url(../img/footer.jpg);
   background-repeat: repeat-x;
   background-size: 10vw 10vh;
+	z-index: 2;
 }
 
 footer p {
@@ -187,6 +301,8 @@ button a {
 .arrow:hover {
   transform: scale(1.1);
 }
+
+
 
 /* Media querie pour téléphone */
 
