@@ -17,6 +17,24 @@
 .colonne11 {
   width: 40%;
 }
+
+#bulle9, #bulle12 {
+  top: 0;
+  left: 10%;
+  padding: 3%;
+}
+
+#bulle10 {
+  top: -10%;
+  left: 10%;
+  padding: 3%;
+}
+
+#bulle11 {
+  top: -10%;
+  left: 10%;
+  padding: 3%;
+}
 #dia1 {
   top: 15%;
   left: 20%;
@@ -30,8 +48,8 @@
   left: 65%;
 }
 #dia4 {
-  top:35%;
-  left:
+  top:22%;
+  left:0;
 }
 
 #dia5 {
